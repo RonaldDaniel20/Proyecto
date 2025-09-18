@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-La API se ejecutara en http://localhost:5173/
+El cliente se ejecutara en http://localhost:5173/
 
 ## Requisitos
 - Node.js V22.19.0
