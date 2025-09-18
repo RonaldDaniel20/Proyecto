@@ -1,12 +1,30 @@
-# React + Vite
+# Sistema de prestamos - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- Lenguaje: JavaScript
+- Framework: React (v19.1.1)
+- Estilos: Bootstrap 5
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instrucciones de ejecución
 
-## Expanding the ESLint configuration
+El proyecto esta estructurado como un monolito en el cual se encuentra el backend y el frontend en el mismo directorio denominado **'PROYECTO'**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Ubicado en la raiz del proyecto puedes introducir el siguiente comando:
+```bash
+cd Frontend/frontend
+```
+
+2. **Instalación de dependencias:** Puede instalar las dependencias utilizando el siguiente comando
+```bash
+npm install 
+```
+3. **Ejecución del cliente:** Puede ejecutar el cliente con el siguiente comando
+```bash
+npm run dev
+```
+
+La API se ejecutara en http://localhost:5173/
+
+## Requisitos
+- Node.js V22.19.0
